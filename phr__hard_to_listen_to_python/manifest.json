@@ -1,0 +1,205 @@
+{
+    "audio_samples": [],
+    "author": [
+        "PHR_"
+    ],
+    "bsk_content": {
+        "modules": [
+            {
+                "gridmeasures": 1,
+                "gridrows": 8,
+                "multislider_mode": true,
+                "name": "drumsequencer",
+                "note_input_mode": 0,
+                "position": [
+                    1717.0,
+                    402.0
+                ],
+                "target": "drumsynth",
+                "type": "drumsequencer"
+            },
+            {
+                "individual_outs": false,
+                "mono": false,
+                "name": "drumsynth",
+                "position": [
+                    1740.0,
+                    650.0
+                ],
+                "target": "gain",
+                "type": "drumsynth"
+            },
+            {
+                "mono": false,
+                "name": "fmsynth",
+                "oversampling": 1,
+                "position": [
+                    1009.0,
+                    1081.0
+                ],
+                "target": "gain",
+                "type": "fmsynth",
+                "voicelimit": -1
+            },
+            {
+                "name": "freqdelay",
+                "position": [
+                    1330.0,
+                    432.0
+                ],
+                "target": "gain",
+                "type": "freqdelay"
+            },
+            {
+                "name": "gain",
+                "position": [
+                    1525.0,
+                    910.0
+                ],
+                "target": "splitter",
+                "type": "gain"
+            },
+            {
+                "mono": false,
+                "name": "karplusstrong",
+                "oversampling": 1,
+                "position": [
+                    970.0,
+                    250.0
+                ],
+                "target": "freqdelay",
+                "type": "karplusstrong",
+                "voicelimit": -1
+            },
+            {
+                "controller": "",
+                "gridheight": 120.0,
+                "gridrows": 15,
+                "gridsteps": 8,
+                "gridwidth": 210.0,
+                "name": "notesequencer",
+                "position": [
+                    605.0,
+                    1164.0
+                ],
+                "stepcontrols": false,
+                "target": "script2",
+                "type": "notesequencer"
+            },
+            {
+                "controller": "",
+                "gridheight": 120.0,
+                "gridrows": 15,
+                "gridsteps": 8,
+                "gridwidth": 210.0,
+                "name": "notesequencer2",
+                "position": [
+                    142.0110168457031,
+                    862.5654296875
+                ],
+                "stepcontrols": false,
+                "target": "script",
+                "type": "notesequencer"
+            },
+            {
+                "channels": 0,
+                "name": "output 1",
+                "position": [
+                    1511.0,
+                    1052.0
+                ],
+                "target": "",
+                "type": "output"
+            },
+            {
+                "channels": 1,
+                "name": "output 2",
+                "position": [
+                    1600.0,
+                    1052.0
+                ],
+                "target": "",
+                "type": "output"
+            },
+            {
+                "name": "pulser",
+                "position": [
+                    -46.0,
+                    622.0
+                ],
+                "target": "script",
+                "type": "pulser"
+            },
+            {
+                "name": "scale",
+                "position": [
+                    158.0,
+                    95.0
+                ],
+                "type": "scale"
+            },
+            {
+                "execute_on_init": true,
+                "init_execute_priority": 0,
+                "name": "script",
+                "position": [
+                    358.0,
+                    403.0
+                ],
+                "syntax_highlighting": true,
+                "target": "karplusstrong",
+                "type": "script"
+            },
+            {
+                "execute_on_init": true,
+                "init_execute_priority": 0,
+                "name": "script2",
+                "position": [
+                    927.4219970703125,
+                    1560.984741210938
+                ],
+                "script": null,
+                "syntax_highlighting": true,
+                "target": "fmsynth",
+                "type": "script"
+            },
+            {
+                "name": "splitter",
+                "position": [
+                    1545.0,
+                    990.0
+                ],
+                "target": "output 1",
+                "target2": "output 2",
+                "type": "splitter"
+            },
+            {
+                "name": "transport",
+                "position": [
+                    14.0,
+                    95.0
+                ],
+                "type": "transport"
+            }
+        ],
+        "rev": 420,
+        "zoomlocations": []
+    },
+    "bsk_path": "hard_to_listen_to_python.bsk",
+    "html": "<h1>What it does</h1>\n<p>This is a simple patch playing random notes in python scripts. Listening to it during more than 5 minutes might give you terrible headaches.</p>\n<h1>But why ?</h1>\n<p>Testing display of Python scripts on Bespoke community website.</p>",
+    "publish": "2021-10-08T22:30:25.618169",
+    "rev": 1,
+    "summary": [
+        "A test patch for Python scripts"
+    ],
+    "tags": [
+        "scripts",
+        "tests"
+    ],
+    "title": [
+        "Hard to listen to Python"
+    ],
+    "version": [
+        "1"
+    ]
+}

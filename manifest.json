@@ -38,5 +38,25 @@
         "version": [
             "1"
         ]
+    },
+    "phr__hard_to_listen_to_python": {
+        "author": [
+            "PHR_"
+        ],
+        "id": "phr__hard_to_listen_to_python",
+        "publish": "2021-10-08T22:30:25.618169",
+        "summary": [
+            "A test patch for Python scripts"
+        ],
+        "tags": [
+            "scripts",
+            "tests"
+        ],
+        "title": [
+            "Hard to listen to Python"
+        ],
+        "version": [
+            "1"
+        ]
     }
 }
