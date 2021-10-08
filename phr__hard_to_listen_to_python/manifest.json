@@ -1,5 +1,7 @@
 {
-    "audio_samples": [],
+    "audio_samples": [
+        "recording_2021-10-08_23-24.mp3"
+    ],
     "author": [
         "PHR_"
     ],
@@ -188,7 +190,7 @@
     },
     "bsk_path": "hard_to_listen_to_python.bsk",
     "html": "<h1>What it does</h1>\n<p>This is a simple patch playing random notes in python scripts. Listening to it during more than 5 minutes might give you terrible headaches.</p>\n<h1>But why ?</h1>\n<p>Testing display of Python scripts on Bespoke community website.</p>",
-    "publish": "2021-10-08T22:45:02.360913",
+    "publish": "2021-10-08T23:25:35.771137",
     "rev": 1,
     "summary": [
         "A test patch for Python scripts"
