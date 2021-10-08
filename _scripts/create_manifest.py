@@ -35,15 +35,21 @@ class BSK:
                     found += 1
                     if found == len(sep):
                         break
+                elif b.decode("ascii", "ignore") == sep[0]:
+                    found = 1
                 else:
                     found = 0
                 b = f.read(1)
 
         def get_script():
             rev = rint()
+            k = 0
             numcontrols = rint()
             for i in range(numcontrols):
                 cname = rstr()
+                k += 1
+                if k == 6:
+                    sys.exit(0)
                 if cname == "code": 
                     rev = rint()
                     return rstr()

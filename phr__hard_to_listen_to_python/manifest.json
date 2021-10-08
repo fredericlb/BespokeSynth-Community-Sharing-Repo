@@ -146,6 +146,7 @@
                     358.0,
                     403.0
                 ],
+                "script": "#attach a pulser set to 16n, and some keyboard input\n\nsequence = [60,60,60,60]\ninsertPos = 0\n\ndef on_pulse():\n   this.play_note(sequence[bespoke.get_step(16)%len(sequence)],127,1.0/16)\n   \ndef on_note(pitch, velocity):\n   global sequence\n   global insertPos\n   if velocity > 0:\n      sequence[insertPos % len(sequence)] = pitch\n      insertPos += 1",
                 "syntax_highlighting": true,
                 "target": "karplusstrong",
                 "type": "script"
@@ -158,7 +159,7 @@
                     927.4219970703125,
                     1560.984741210938
                 ],
-                "script": null,
+                "script": "#send a note input into here\n\ndef on_note(pitch,velocity):\n   for i in range(1,5):\n      me.schedule_note_msg(i/8.0, pitch, int(velocity/i))",
                 "syntax_highlighting": true,
                 "target": "fmsynth",
                 "type": "script"
@@ -187,7 +188,7 @@
     },
     "bsk_path": "hard_to_listen_to_python.bsk",
     "html": "<h1>What it does</h1>\n<p>This is a simple patch playing random notes in python scripts. Listening to it during more than 5 minutes might give you terrible headaches.</p>\n<h1>But why ?</h1>\n<p>Testing display of Python scripts on Bespoke community website.</p>",
-    "publish": "2021-10-08T22:30:25.618169",
+    "publish": "2021-10-08T22:45:02.360913",
     "rev": 1,
     "summary": [
         "A test patch for Python scripts"
