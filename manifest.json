@@ -1,0 +1,42 @@
+{
+    "awwbees__example__looper_recorder": {
+        "author": [
+            "Awwbees"
+        ],
+        "id": "awwbees__example__looper_recorder",
+        "publish": "2021-10-08T15:34:41.901752",
+        "summary": [
+            "An example patch"
+        ],
+        "tags": [
+            "looper",
+            "default"
+        ],
+        "title": [
+            "Example Looper Recorder"
+        ],
+        "version": [
+            "1"
+        ]
+    },
+    "awwbees__example__sequencing_sequencers": {
+        "author": [
+            "Awwbees"
+        ],
+        "id": "awwbees__example__sequencing_sequencers",
+        "publish": "2021-10-08T15:35:35.414765",
+        "summary": [
+            "An example patch"
+        ],
+        "tags": [
+            "seq",
+            "default"
+        ],
+        "title": [
+            "Example Sequencing Sequencers"
+        ],
+        "version": [
+            "1"
+        ]
+    }
+}
