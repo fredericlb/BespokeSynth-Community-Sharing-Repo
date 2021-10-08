@@ -122,7 +122,7 @@ out["publish"] = tms
 out["rev"] = 1
 out["audio_samples"] = list(map(lambda x: os.path.basename(x), audio_files))
 
-Path(f"./{project}/__manifest.json").write_text(json.dumps(out, indent=4, sort_keys=True))
+Path(f"./{project}/manifest.json").write_text(json.dumps(out, indent=4, sort_keys=True))
 
 manifest = json.loads(Path(GLOBAL_MANIFEST).read_text())
 manifest[project] = meta.copy()
